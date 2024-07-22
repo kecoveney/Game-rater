@@ -1,0 +1,22 @@
+/* Login Box and Register Box */
+.login-box,
+.register-box {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  padding-right: 48px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #61dafb;
+  max-width: 500px;
+  width: 80%;
+  margin-left: 10px;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.login-box h2,
+.register-box h2 {
+  color: #61dafb;
+  margin-bottom: 20px;
+}

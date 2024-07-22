@@ -1,0 +1,148 @@
+@import url('./CSS/navbar.css');
+@import url('./CSS/Login.css');
+@import url('./CSS/Admin.css');
+@import url('./CSS/Review.css');
+@import url('./CSS/Games.css');
+@import url('./CSS/Form.css');
+@import url('./CSS/Effects.css');
+body {
+  font-family: 'Press Start 2P', cursive;
+  background: url('public/assets/Background1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px 20px;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  height: 200px;
+  padding: 5px 0;
+  transition: filter 300ms;
+  animation: floating 3s ease-in-out infinite;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+
+
+/* Main Content Styles */
+.main-content {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 32px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #61dafb;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+/* Centered Boxes */
+.reviews-container,
+.latest-reviews,
+.review-submission,
+.account-details-container,
+.admin-panel,
+.top-recommended-games {
+  background-color: rgba(0, 0, 0, 0.8);
+  max-width: 508px;
+  width: 100%;
+  padding: 38px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #61dafb;
+  margin: 0 auto;
+  text-align: left;
+  overflow: hidden;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Headings */
+h2 {
+  font-size: 2.5em;
+  color: #61dafb;
+  text-align: center;
+  border-bottom: 2px solid #61dafb;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+
+  .container,
+  .reviews-container,
+  .latest-reviews,
+  .review-submission,
+  .account-details-container,
+  .top-recommended-games,
+  .about-us,
+  .admin-panel {
+    
+    max-width: 100%;
+  }
+}
+
+
+
+.about-us {
+  background-color: rgba(0, 0, 0, 0.8);
+  max-width: 600px;
+  width: 80%;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #61dafb;
+  margin: 0 auto;
+  text-align: left;
+  overflow: hidden;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+
+.home {
+  padding: 20px;
+}
+

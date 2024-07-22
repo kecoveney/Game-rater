@@ -1,0 +1,53 @@
+/* Form Styles */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #61dafb;
+    font-weight: bold;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #61dafb;
+    border-radius: 8px;
+    background-color: #111;
+    color: #61dafb;
+    font-size: 1em;
+    transition: border-color 0.3s, background-color 0.3s, transform 0.3s;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #61dafb;
+    background-color: #222;
+    transform: scale(1.02);
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 120px;
+  }
+  
+  button {
+    background-color: #61dafb;
+    color: #61dafb;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    width: 100%;
+  }
+  
